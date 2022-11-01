@@ -1,0 +1,14 @@
+.idea/
+.vscode/
+out
+services
+.DS_Store
+*.iml
+
+bazel-bin
+bazel-java-bazel-demo
+bazel-out
+bazel-testlogs
+.ijwb
+
+bazel-*
