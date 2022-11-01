@@ -1,12 +1,12 @@
 .idea/
 .vscode/
 out
-services
+service
 .DS_Store
 *.iml
 
 bazel-bin
-bazel-java-bazel-demo
+bazel-java-thrift-demo
 bazel-out
 bazel-testlogs
 .ijwb

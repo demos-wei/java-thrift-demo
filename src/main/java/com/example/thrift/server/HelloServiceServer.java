@@ -1,7 +1,7 @@
 package com.example.thrift.server;
 
 import com.example.thrift.impl.HelloServiceImpl;
-import com.example.thrift.services.HelloService;
+import com.example.thrift.service.HelloService;
 import org.apache.thrift.TProcessorFactory;
 import org.apache.thrift.protocol.TCompactProtocol;
 import org.apache.thrift.server.THsHaServer;

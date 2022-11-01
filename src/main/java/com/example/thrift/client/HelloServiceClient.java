@@ -1,6 +1,6 @@
 package com.example.thrift.client;
 
-import com.example.thrift.services.HelloService;
+import com.example.thrift.service.HelloService;
 import org.apache.thrift.TException;
 import org.apache.thrift.protocol.TCompactProtocol;
 import org.apache.thrift.protocol.TProtocol;
@@ -18,7 +18,7 @@ public class HelloServiceClient {
       TProtocol protocol = new TCompactProtocol(transport);
       HelloService.Client client = new HelloService.Client(protocol);
       transport.open();
-      String result = client.helloString("hello!");
+      String result = client.sayHello("hello!");
       System.out.println(result);
     } catch (TException e) {
       e.printStackTrace();

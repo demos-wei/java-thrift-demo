@@ -1,11 +1,11 @@
 package com.example.thrift.impl;
 
-import com.example.thrift.services.HelloService;
-import org.apache.thrift.TException;
+import com.example.thrift.service.HelloService;
 
 public class HelloServiceImpl implements HelloService.Iface {
+
   @Override
-  public String helloString(String para) throws TException {
+  public String sayHello(String para) {
     return para;
   }
 }

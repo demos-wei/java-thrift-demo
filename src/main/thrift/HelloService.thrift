@@ -1,4 +1,4 @@
-namespace java com.example.thrift.services
+namespace java com.example.thrift.service
 service HelloService{
-    string helloString(1:string para)
+    string sayHello(1:string para)
 }

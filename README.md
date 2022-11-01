@@ -1,5 +1,5 @@
 # Java thrift demo
-A demo to generate java file by thrift command, and use the thrift servicer and client.
+A demo to generate java file by thrift command, and use the thrift server and client.
 
 Install thrift
 ```shell

@@ -13,10 +13,10 @@ http_archive(
 load("@rules_jvm_external//:defs.bzl", "maven_install")
 maven_install(
     artifacts = [
-        "org.apache.thrift:libthrift:0.15.0",
-        "org.slf4j:slf4j-api:1.7.32",
-        "javax.annotation:javax.annotation-api:1.3.1",
-        "ch.qos.logback:logback-classic:1.2.7"
+        "org.apache.thrift:libthrift:0.17.0",
+        "org.slf4j:slf4j-api:2.0.3",
+        "javax.annotation:javax.annotation-api:1.3.2",
+        "ch.qos.logback:logback-classic:1.4.4"
     ],
     repositories = [
         "https://repo.maven.apache.org/maven2/",
